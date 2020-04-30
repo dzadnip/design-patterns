@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Singleton_Thread_Safe
+namespace SingletonThreadSafe
 {
     // This Singleton implementation is called "double check lock". It is safe
     // in multithreaded environment and provides lazy initialization for the

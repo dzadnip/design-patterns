@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Singleton_Thread_Safe
+namespace SingletonThreadSafe
 {
     class Program
     {
