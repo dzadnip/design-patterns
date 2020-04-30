@@ -29,6 +29,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeExample", "Structural
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonThreadSafe", "Creational\SingletonThreadSafe\SingletonThreadSafe.csproj", "{01BB1A90-E129-413F-8EC3-6B631CF61B16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{04198420-495D-4CB9-83C6-2829545D1B68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Behavioral\Command\Command.csproj", "{468C0ABB-395E-4254-92B2-DCA6C05DFDF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,10 @@ Global
 		{01BB1A90-E129-413F-8EC3-6B631CF61B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BB1A90-E129-413F-8EC3-6B631CF61B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BB1A90-E129-413F-8EC3-6B631CF61B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468C0ABB-395E-4254-92B2-DCA6C05DFDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468C0ABB-395E-4254-92B2-DCA6C05DFDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468C0ABB-395E-4254-92B2-DCA6C05DFDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468C0ABB-395E-4254-92B2-DCA6C05DFDF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{10331A7E-0B45-4487-9BBE-D92729BF7016} = {C066C8CF-A512-4957-976A-9A1159D8A86E}
 		{2723B9DA-CFA6-4AB3-B06F-CD542F17D932} = {C066C8CF-A512-4957-976A-9A1159D8A86E}
 		{01BB1A90-E129-413F-8EC3-6B631CF61B16} = {CB20F8E5-BD43-418F-9494-958EC80F2AF9}
+		{468C0ABB-395E-4254-92B2-DCA6C05DFDF5} = {04198420-495D-4CB9-83C6-2829545D1B68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {580897F7-F0B2-4545-BE6B-BE1716CCD13C}
